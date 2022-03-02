@@ -19,7 +19,7 @@ header {
 }
 
 .main-header {
-	font-size: 3.5rem;
+	font-size: 2rem;
 	font-family: 'New Rocker', cursive;
 }
 
@@ -44,7 +44,7 @@ nav.topnav a {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	padding: 1rem;
 }
 
