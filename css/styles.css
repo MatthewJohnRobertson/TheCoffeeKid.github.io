@@ -1,0 +1,92 @@
+/* Created by Matthew Robertson on the 2nd of March 2022 */
+
+body {
+	background-image: url("../images/concert.jpg")
+}
+
+div.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: silver; 
+	padding: 1rem;
+}
+
+.main-header {
+	font-size: 6rem;
+	font-family: 'New Rocker', cursive;
+}
+
+.head-img2, .head-img {
+	width: 20%;
+}
+
+.head-img2 {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+nav.topnav {
+	background-color: black;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+nav.topnav a:hover {
+	background-color: silver;
+	color: black;
+}
+
+.topnav a.active {
+	color: white;
+	background-color: gray;
+}
+
+section.main-content {
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+
+img.picture1 {
+	float: right;
+	margin-left: 2rem;
+	padding-top: 3rem;
+	width: 40%;
+}
+
+img.picture2 {
+	margin-right: 2rem;
+	float: left;
+	width: 40%;
+}	
+
+
+article.main-article {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-size: 2rem;
+	text-align: justify;
+}
+
+p.firstcapital:first-letter {
+	font-size: 3rem;
+	color: darkred;
+}
